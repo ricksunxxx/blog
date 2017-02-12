@@ -7,190 +7,311 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>产品信息</title>
     <style>
-        /*begin step01*/
-
-*,
-:after,
-:before {
-    margin: 0;
-    padding: 0;
-    border: none;
-    outline: 0;
-    box-shadow: none;
-    font: inherit;
-    vertical-align: baseline;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-html,
-body {
-    font-size: 12px;
-    color: #5e5e5e;
-    font-family: '宋体', '微软雅黑', sans-serif;
-    background-color: #f8f8f8;
-    height: 100%;
-    overflow: hidden;
-}
-
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    text-align: center;
-    width: 100%;
-    height: 40px;
-    line-height: 40px;
-    padding: 0 40px;
-    font-size: 16px;
-    color: #fff;
-    background: #FF7614;
-    overflow: hidden;
-    z-index: 9999;
-}
-
-header .icon-back {
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: block;
-    width: 40px;
-    height: 100%;
-    background: transparent url(../img/icon_back.png) no-repeat 50%;
-    background-size: 22px 22px;
-}
-
-header .title {
-    font-weight: bolder;
-}
-
-header a {
-    position: absolute;
-    right: 10px;
-    top: 0;
-    display: block;
-    width: 30px;
-    height: 100%;
-    background: transparent url(../img/icon_advisoryGG.png) no-repeat 50%;
-    background-size: 24px 30px;
-    text-decoration: none;
-    text-indent: -9999rem;
-}
-
-.step-section {
-    margin-top: 40px;
-}
-
-.step-container {
-    display: box;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    padding: 6% 6% 10%;
-    overflow: hidden;
-}
-
-.step {
-    -webkit-box-flex: 1;
-    -moz-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    position: relative;
-}
-
-.step:before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 10px;
-    left: 0;
-    width: 100%;
-    border: 2px solid #ddd;
-}
-
-.digit-desc {
-    position: relative;
-    float: right;
-    width: 24px;
-    height: 24px;
-    line-height: 24px;
-    text-align: center;
-}
-
-.digit-desc .digit {
-    font-size: 14px;
-    border-radius: 50%;
-    color: #FFF;
-    background: #ddd;
-}
-
-.digit-desc .desc {
-    position: absolute;
-    top: 24px;
-    left: -48px;
-    text-align: center;
-    width: 120px;
-    font-size: 12px;
-    color: #878787;
-}
-
-.step.active .digit,
-.step-first.active .digit {
-    font-size: 16px;
-    background: #FF7614;
-}
-
-.step.active:before {
-    border: 2px solid #FF7614;
-}
-
-.step.active .desc,
-.step-first.active .desc {
-    color: #ffa263;
-}
-
-footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    background: #f8f8f8;
-}
-
-footer .btn-buy {
-    display: block;
-    margin: 0 auto;
-    width: 90%;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-    font-weight: bolder;
-    border-radius: 14px;
-    background: #FF7614;
-    text-decoration: none;
-}
-
-footer p {
-    text-align: center;
-    height: 40px;
-    line-height: 40px;
-}
-
-
-/*end step01*/
-
+    /*begin step01*/
+    /*begin 重置样式*/
+    
+    @charset 'utf-8';
+    *,
+    :after,
+    :before {
+        margin: 0;
+        padding: 0;
+        border: none;
+        outline: 0;
+        box-shadow: none;
+        font: inherit;
+        vertical-align: baseline;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    ul,
+    ol {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    button,
+    input,
+    select,
+    textarea {
+        font-size: 100%;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+    html,
+    body {
+        font-size: 12px;
+        color: #5e5e5e;
+        font-family: '宋体', '微软雅黑', sans-serif;
+        background-color: #f8f8f8;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    .fn-left {
+        float: left;
+    }
+    
+    .fn-right {
+        float: right;
+    }
+    /*end 重置样式*/
+    /*begin  header*/
+    
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 40px;
+        font-size: 16px;
+        color: #fff;
+        background: #FF7614;
+        overflow: hidden;
+        z-index: 9999;
+    }
+    
+    header .icon-back {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        width: 40px;
+        height: 100%;
+        background: transparent url(../img/icon_back.png) no-repeat 50%;
+        background-size: 50%;
+    }
+    
+    header .title {
+        font-weight: bolder;
+    }
+    
+    header a {
+        position: absolute;
+        right: 10px;
+        top: 0;
+        display: block;
+        width: 30px;
+        height: 100%;
+        background: transparent url(../img/icon_advisoryGG.png) no-repeat 50%;
+        background-size: 24px 30px;
+        text-decoration: none;
+        text-indent: -9999rem;
+    }
+    /*end  header*/
+    /*begin 投保流程*/
+    
+    .step-section {
+        margin-top: 40px;
+    }
+    
+    .step-container {
+        display: box;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        padding: 10% 6% 14%;
+        overflow: hidden;
+    }
+    
+    .step {
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        position: relative;
+    }
+    
+    .step:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 100%;
+        border: 2px solid #ddd;
+    }
+    
+    .digit-desc {
+        position: relative;
+        float: right;
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+    }
+    
+    .digit-desc .digit {
+        font-size: 14px;
+        border-radius: 50%;
+        color: #FFF;
+        background: #ddd;
+    }
+    
+    .digit-desc .desc {
+        position: absolute;
+        top: 24px;
+        left: -48px;
+        text-align: center;
+        width: 120px;
+        font-size: 12px;
+        color: #878787;
+    }
+    
+    .step.active .digit,
+    .step-first.active .digit {
+        font-size: 16px;
+        background: #FF7614;
+    }
+    
+    .step.active:before {
+        border: 2px solid #FF7614;
+    }
+    
+    .step.active .desc,
+    .step-first.active .desc {
+        color: #ffa263;
+    }
+    /*end 投保流程*/
+    /*begin 保险日期*/
+    
+    .date-section {
+        border-top: 1px solid #ddd;
+        background: #fff;
+    }
+    
+    .date-section .date-row {
+        position: relative;
+        padding: 0 5%;
+        height: 46px;
+        line-height: 46px;
+        border-bottom: 1px solid #ddd;
+        font-size: 14px;
+        color: #5f5f5f;
+        overflow: hidden;
+    }
+    
+    .date-row label {
+        width: 40%;
+        float: left;
+    }
+    
+    .date-row p {
+        margin-left: 40%;
+    }
+    
+    .date-to-select p {
+        color: #0079FB;
+    }
+    
+    .date-row .day {
+        margin-right: 8px;
+    }
+    
+    .date-to-select:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 5%;
+        display: block;
+        width: 38px;
+        height: 46px;
+        background: transparent url(../img/icon_right.png) no-repeat 50%;
+        background-size: 30%;
+    }
+    /*end 保险日期*/
+    /*begin 保险内容和价格*/
+    
+    .insurance-section {
+        padding: 6%;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    
+    .insurance-section h2 {
+        overflow: hidden;
+        font-weight: bold;
+    }
+    
+    .insurance-section li {
+        text-align: right;
+        overflow: hidden;
+    }
+    
+    .insurance-section .standard-fee {
+        margin-top: 6%;
+        font-size: 18px;
+    }
+    
+    .insurance-section .standard-fee-title {
+        margin-right: 10px;
+    }
+    
+    .insurance-section .standard-fee-digit,
+    .insurance-section .standard-fee-text {
+        color: #F60;
+    }
+    /*end 保险内容和价格*/
+    /*begin footer*/
+    
+    footer {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        background: #f8f8f8;
+        z-index: 9999;
+    }
+    
+    footer .btn-buy {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 20px;
+        color: #fff;
+        font-weight: bolder;
+        border-radius: 14px;
+        background: #FF7614;
+        text-decoration: none;
+    }
+    
+    footer p {
+        text-align: center;
+        height: 40px;
+        line-height: 40px;
+    }
+    /*end footer*/
+    /*end step01*/
     </style>
 </head>
 
 <body>
     <header>
-        <span class="icon-back"></span>
+        <a class="icon-back" href="javascript:window.history.back();"></a>
         <strong class="title">平安健身宝保险计划（一年保障）</strong>
         <a href="tel:95511">咨询</a>
     </header>
@@ -221,12 +342,51 @@ footer p {
                 </div>
             </div>
         </div>
+    </section>
+    <section class="date-section">
+        <div class="date-row date-to-select">
+            <label for="">保险起期</label>
+            <p id="J-select-date"><span class="year">2017</span>-<span class="month">02</span>-<span class="day">10</span><span>00时</span></p>
+        </div>
+        <div class="date-row">
+            <label for="">保险起期</label>
+            <p><span class="year">2017</span>-<span class="month">02</span>-<span class="day">10</span><span>24时</span></p>
+        </div>
+    </section>
+    <section class="insurance-section">
+        <h2>
+                <span class="fn-left">保障范围</span>
+                <span class="fn-right ">保险金额</span>
+            </h2>
+        <ul>
+            <li>
+                <span class="fn-left">意外伤害医疗</span>
+                <span>2000</span>
+                <span>元</span>
+            </li>
+            <li>
+                <span class="fn-left ">意外伤害身故和残疾</span>
+                <span>0.92830</span>
+                <span>元</span>
+            </li>
+            <li>
+                <span class="fn-left ">意外外伤害意外伤害医疗</span>
+                <span>2222000.92830</span>
+                <span>元</span>
+            </li>
+        </ul>
+        <div class="standard-fee">
+            <span class="standard-fee-title">标准保费</span>
+            <span class="standard-fee-digit">100</span>
+            <span class="standard-fee-text">元/人</span>
         </div>
     </section>
     <footer>
-        <a class="btn-buy" href="javascript:;">购买</a>
+        <a id="J-btn-buy" class="btn-buy" href="http://www.baidu.com">购买</a>
         <p>©中国平安财产保险股份有限公司</p>
     </footer>
+    <script src="js/libs/zepto.min.js"></script>
+    <script src="js/step01.js"></script>
 </body>
 
 </html>
