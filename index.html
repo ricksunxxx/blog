@@ -73,16 +73,22 @@
     }
     
     .step-container {
+        display: box;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
         display: flex;
         padding: 6%;
     }
     
     .step {
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
         flex: 1;
         position: relative;
-        display: flex;
-        align-items: center;
-        flex-direction: row-reverse;
     }
     
     .step:before {
@@ -97,6 +103,7 @@
     
     .digit-desc {
         position: relative;
+        float: right;
         width: 24px;
         height: 24px;
         line-height: 24px;
@@ -199,6 +206,8 @@
         <a class="btn-buy" href="javascript:;">购买</a>
         <p>©中国平安财产保险股份有限公司</p>
     </footer>
+    <script src="js/libs/zepto.min.js"></script>
+    <script src="js/step01.js"></script>
 </body>
 
 </html>
