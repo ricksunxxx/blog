@@ -9,6 +9,7 @@
     <!-- <link rel="stylesheet" href="css/common.css"> -->
     <style>
     /*begin step01*/
+    /*begin step01*/
     
     *,
     :after,
@@ -31,17 +32,23 @@
         font-family: '宋体', '微软雅黑', sans-serif;
         background-color: #f8f8f8;
         height: 100%;
+        overflow: hidden;
     }
     
     header {
-        position: relative;
-        font-size: 16px;
+        position: fixed;
+        top: 0;
+        left: 0;
         text-align: center;
+        width: 100%;
         height: 40px;
         line-height: 40px;
         padding: 0 40px;
+        font-size: 16px;
         color: #fff;
         background: #FF7614;
+        overflow: hidden;
+        z-index: 9999;
     }
     
     header .icon-back {
@@ -72,6 +79,10 @@
         text-indent: -9999rem;
     }
     
+    .step-section {
+        margin-top: 40px;
+    }
+    
     .step-container {
         display: box;
         display: -webkit-box;
@@ -79,7 +90,7 @@
         display: -ms-flexbox;
         display: -webkit-flex;
         display: flex;
-        padding: 6%;
+        padding: 6% 6% 10%;
         overflow: hidden;
     }
     
@@ -174,7 +185,7 @@
         <strong class="title">平安健身宝保险计划（一年保障）</strong>
         <a href="tel:95511">咨询</a>
     </header>
-    <section>
+    <section class="step-section">
         <div class="step-container">
             <div class="step-first active">
                 <div class="digit-desc">
@@ -207,8 +218,6 @@
         <a class="btn-buy" href="javascript:;">购买</a>
         <p>©中国平安财产保险股份有限公司</p>
     </footer>
-    <script src="js/libs/zepto.min.js"></script>
-    <script src="js/step01.js"></script>
 </body>
 
 </html>
