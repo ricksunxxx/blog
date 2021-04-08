@@ -1,2 +1,2 @@
-个人技术博客
+Personal Website
 
