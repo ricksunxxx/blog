@@ -2,7 +2,7 @@
 
 ## 小程序系列
 
-1. [小程序兼容问题之——promise finally]()
+1. [小程序兼容问题之——promise finally](https://github.com/ricksunxxx/blog/issues/1)
 
 ## 勘误及提问
 
