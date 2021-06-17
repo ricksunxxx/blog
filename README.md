@@ -1,8 +1,16 @@
 # 建国的博客
 
-## 小程序系列
+## 微信小程序系列
 
-1. [小程序兼容问题之——promise finally](https://github.com/ricksunxxx/blog/issues/1)
+1. [小程序兼容问题——promise finally](https://github.com/ricksunxxx/blog/issues/1)
+2. [小程序路由方式与生命周期的关系](https://github.com/ricksunxxx/blog/issues/2)
+
+## JavaScript 系列
+
+1. [长文介绍 Javascript 异步编程——callback（一）](https://github.com/ricksunxxx/blog/issues/3)
+2. [长文介绍 Javascript 异步编程——promise（二）](https://github.com/ricksunxxx/blog/issues/4)
+3. [长文介绍 Javascript 异步编程——async/await（三）](https://github.com/ricksunxxx/blog/issues/5)
+4. [长文介绍 Javascript 异步编程——未来（四）](https://github.com/ricksunxxx/blog/issues/6)
 
 ## 勘误及提问
 
