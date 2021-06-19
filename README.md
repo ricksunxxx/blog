@@ -4,6 +4,7 @@
 
 1. [小程序兼容问题——promise finally](https://github.com/ricksunxxx/blog/issues/1)
 2. [小程序路由方式与生命周期的关系](https://github.com/ricksunxxx/blog/issues/2)
+3. [如何同步小程序与 H5 的登录态](https://github.com/ricksunxxx/blog/issues/7)
 
 ## JavaScript 系列
 
@@ -11,6 +12,7 @@
 2. [长文介绍 Javascript 异步编程——promise（二）](https://github.com/ricksunxxx/blog/issues/4)
 3. [长文介绍 Javascript 异步编程——async/await（三）](https://github.com/ricksunxxx/blog/issues/5)
 4. [长文介绍 Javascript 异步编程——未来（四）](https://github.com/ricksunxxx/blog/issues/6)
+5. [import 与 require 本质区别](https://github.com/ricksunxxx/blog/issues/8)
 
 ## 勘误及提问
 
