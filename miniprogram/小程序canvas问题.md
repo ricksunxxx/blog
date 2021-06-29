@@ -11,6 +11,5 @@ wx.createCanvasContext
 
 ```
 <canvas type="2d" id="myCanvas"></canvas>
-<canvas type="2d" id="myCanvas"></canvas>
-<canvas type="2d" id="myCanvas"></canvas>
+
 ```
