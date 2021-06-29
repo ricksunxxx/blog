@@ -2,7 +2,7 @@
 
 最近在用小程序 canvas 做礼花从天空飘洒落地的动画，动画效果大概是这样的
 
-![image](https://user-images.githubusercontent.com/9975520/123826304-3bcfd300-d932-11eb-88e6-d5927f035275.png)
+![image](https://user-images.githubusercontent.com/9975520/123826304-3bcfd300-d932-11eb-88e6-d5927f035275.png){:height="50%" width="50%"}
 
 ## 2、问题一：canvas 版本问题
 
