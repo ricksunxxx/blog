@@ -13,11 +13,11 @@
 <!-- canvas.wxml -->
 <canvas canvas-id="myCanvas"></canvas>
 
-//在Page内
-var context = wx.createCanvasContext('myCanvas') //使用 wx.createContext 获取绘图上下文 context
+// 在Page内
+var context = wx.createCanvasContext('myCanvas') // 使用 wx.createContext 获取绘图上下文 context
 
-//在Component内
-var context = wx.createCanvasContext('myCanvas',this) //表示在这个自定义组件下查找
+// 在Component内
+var context = wx.createCanvasContext('myCanvas',this) // 表示在这个自定义组件下查找
 
 ```
 
@@ -30,10 +30,10 @@ var context = wx.createCanvasContext('myCanvas',this) //表示在这个自定义
 ```js
 
 <!-- canvas.wxml -->
-<canvas type="2d" id="myCanvas"></canvas> //多了type和id,少了canvas-id
+<canvas type="2d" id="myCanvas"></canvas> // 多了type和id,少了canvas-id
 
 
-//在Page内
+// 在Page内
 const query = wx.createSelectorQuery()
 query.select('#myCanvas')
     .fields({ node: true, size: true })
@@ -43,8 +43,8 @@ query.select('#myCanvas')
     })
 
 
-//在Component内
-const query = this.createSelectorQuery() //这里要使用this，不能使用wx
+// 在Component内
+const query = this.createSelectorQuery() // 这里要使用this，不能使用wx
 query.select('#myCanvas')
     .fields({ node: true, size: true })
     .exec((res) => {
