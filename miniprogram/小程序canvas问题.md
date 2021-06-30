@@ -8,7 +8,7 @@
 
 如果使用旧版接口，获取 canvas 绘图上下文时需要特别注意：
 
-```
+```js
 
 <!-- canvas.wxml -->
 <canvas canvas-id="myCanvas"></canvas>
@@ -27,7 +27,7 @@ var context = wx.createCanvasContext('myCanvas',this) //表示在这个自定义
 
 这时候，代码又不一样了：
 
-```
+```js
 
 <!-- canvas.wxml -->
 <canvas type="2d" id="myCanvas"></canvas> //多了type和id,少了canvas-id
