@@ -32,7 +32,6 @@ var context = wx.createCanvasContext('myCanvas',this) // 表示在这个自定�
 <!-- canvas.wxml -->
 <canvas type="2d" id="myCanvas"></canvas> // 多了type和id,少了canvas-id
 
-
 // 在Page内
 const query = wx.createSelectorQuery()
 query.select('#myCanvas')
@@ -41,7 +40,6 @@ query.select('#myCanvas')
     const canvas = res[0].node
     const ctx = canvas.getContext('2d')
     })
-
 
 // 在Component内
 const query = this.createSelectorQuery() // 这里要使用this，不能使用wx
