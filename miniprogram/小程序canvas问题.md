@@ -9,6 +9,7 @@
 如果使用旧版接口，获取 canvas 绘图上下文时需要特别注意：
 
 ```
+
 <!-- canvas.wxml -->
 <canvas canvas-id="myCanvas"></canvas>
 
@@ -16,7 +17,8 @@
 var context = wx.createCanvasContext('myCanvas') //使用 wx.createContext 获取绘图上下文 context
 
 //在Component内
-var context = wx.createCanvasContext('myCanvas',this) //在自定义组件下，当前组件实例的this，表示在这个自定义组件下查找拥有 canvas-id 的 canvas ，如果省略则不在任何自定义组件内查找
+var context = wx.createCanvasContext('myCanvas',this) //表示在这个自定义组件下查找
+
 ```
 
 如果使用新版接口，基础库在 2.9.0 起支持一套新 Canvas 2D 接口（需指定 type 属性），同时支持同层渲染，原有接口不再维护。
