@@ -3,10 +3,11 @@
 ## 微信小程序系列
 
 1. [小程序 canvas 问题](https://github.com/ricksunxxx/blog/blob/master/miniprogram/小程序canvas问题.md)
-2. [小程序 data 中变量与非 data 中变量的区别](https://github.com/ricksunxxx/blog/miniprogram/mp-01.md)
-3. [小程序兼容问题——promise finally](https://github.com/ricksunxxx/blog/issues/1)
-4. [小程序路由方式与生命周期的关系](https://github.com/ricksunxxx/blog/issues/2)
-5. [如何同步小程序与 H5 的登录态](https://github.com/ricksunxxx/blog/issues/7)
+2. [小程序同层渲染原理](https://github.com/ricksunxxx/blog/blob/master/miniprogram/小程序同层渲染原理.md)
+3. [小程序 data 中变量与非 data 中变量的区别](https://github.com/ricksunxxx/blog/miniprogram/mp-01.md)
+4. [小程序兼容问题——promise finally](https://github.com/ricksunxxx/blog/issues/1)
+5. [小程序路由方式与生命周期的关系](https://github.com/ricksunxxx/blog/issues/2)
+6. [如何同步小程序与 H5 的登录态](https://github.com/ricksunxxx/blog/issues/7)
 
 ## JavaScript 系列
 
