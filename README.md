@@ -4,25 +4,24 @@
 
 1. [小程序 canvas 问题](https://github.com/ricksunxxx/blog/blob/master/miniprogram/小程序canvas问题.md)
 2. [小程序原生组件同层渲染原理](https://github.com/ricksunxxx/blog/blob/master/miniprogram/小程序原生组件同层渲染原理.md)
-3. [小程序 data 中变量与非 data 中变量的区别](https://github.com/ricksunxxx/blog/miniprogram/mp-01.md)
+<!-- 3. [小程序 data 中变量与非 data 中变量的区别](https://github.com/ricksunxxx/blog/miniprogram/mp-01.md)
 4. [小程序兼容问题——promise finally](https://github.com/ricksunxxx/blog/issues/1)
 5. [小程序路由方式与生命周期的关系](https://github.com/ricksunxxx/blog/issues/2)
-6. [如何同步小程序与 H5 的登录态](https://github.com/ricksunxxx/blog/issues/7)
+6. [如何同步小程序与 H5 的登录态](https://github.com/ricksunxxx/blog/issues/7) -->
 
 ## JavaScript 系列
-1. [谈谈 Web Components](https://github.com/ricksunxxx/blog/blob/master/javascript/谈谈webcomponents.md)
+1. [谈谈 Web Components](https://github.com/ricksunxxx/blog/blob/master/javascript/谈谈webcomponents.md) 
+<!-- 2. [长文介绍 Javascript 异步编程——callback（一）](https://github.com/ricksunxxx/blog/issues/3)
    
-2. [长文介绍 Javascript 异步编程——callback（一）](https://github.com/ricksunxxx/blog/issues/3)
+1. [长文介绍 Javascript 异步编程——callback（一）](https://github.com/ricksunxxx/blog/issues/3)
    
-3. [长文介绍 Javascript 异步编程——callback（一）](https://github.com/ricksunxxx/blog/issues/3)
+2. [长文介绍 Javascript 异步编程——promise（二）](https://github.com/ricksunxxx/blog/issues/4)
    
-4. [长文介绍 Javascript 异步编程——promise（二）](https://github.com/ricksunxxx/blog/issues/4)
+3. [长文介绍 Javascript 异步编程——async/await（三）](https://github.com/ricksunxxx/blog/issues/5)
    
-5. [长文介绍 Javascript 异步编程——async/await（三）](https://github.com/ricksunxxx/blog/issues/5)
+4.  [长文介绍 Javascript 异步编程——未来（四）](https://github.com/ricksunxxx/blog/issues/6)
    
-6.  [长文介绍 Javascript 异步编程——未来（四）](https://github.com/ricksunxxx/blog/issues/6)
-   
-7.  [import 与 require 本质区别](https://github.com/ricksunxxx/blog/issues/8)
+5.  [import 与 require 本质区别](https://github.com/ricksunxxx/blog/issues/8) -->
 
 ## 勘误及提问
 
