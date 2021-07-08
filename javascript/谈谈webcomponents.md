@@ -185,6 +185,7 @@ Shadow DOM 定义如何封装样式和标签，它可以让一个组件拥有自
 ```
 
 带有 shadow tree 的 hello world 效果如下：
+
 ![image](https://user-images.githubusercontent.com/9975520/124910116-cd6bce80-e01d-11eb-87d1-adb28662b884.png)
 
 Shadow dom 是创建组件级别 DOM 的一种方法，可以使用 innerHTML 或者其他 DOM 方法来扩展 shadowRoot，需要注意的是：
