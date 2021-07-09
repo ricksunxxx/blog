@@ -299,3 +299,5 @@ Web components 的不足：
 [Micro-Frontend using Web Components](https://medium.com/swlh/micro-frontend-using-web-components-e9faacfc101b)
 
 [polymer 3.0](https://polymer-library.polymer-project.org/3.0/docs/devguide/feature-overview)
+
+[精读《Web Components 的困境》](https://github.com/ascoders/weekly/blob/master/%E5%89%8D%E6%B2%BF%E6%8A%80%E6%9C%AF/10.%E7%B2%BE%E8%AF%BB%E3%80%8AWeb%20Components%20%E7%9A%84%E5%9B%B0%E5%A2%83%E3%80%8B.md)
