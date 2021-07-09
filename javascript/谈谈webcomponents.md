@@ -260,6 +260,12 @@ ES Modules 其实就是 JavaScript 官方的规范的模块化系统，它并不
 
 如果你熟悉 [Vite](https://vitejs.dev/) ，你会特别理解以上模块的引入方式。
 
+## web components 兼容性
+
+![image](https://user-images.githubusercontent.com/9975520/125014673-b5895e80-e0a0-11eb-99d4-0b5f7619222d.png)
+
+可以看出 web components 的兼容性已经非常好了，如果旧的浏览器不支持，可以使用 [polyfills](https://github.com/webcomponents/polyfills/tree/master/packages/webcomponentsjs)
+
 ## 总结
 
 Web components 的优势：
@@ -272,13 +278,13 @@ Web components 的优势：
 Web components 的不足：
 
 1. Web components 依托在 html 模版语言上，缺少 js 的灵活性
-2. 兼容问题，各家浏览器厂商跟进缓慢
+2. 标准推进速度缓慢，落地有限
 
-其实，国内的网站其实很难看到 Web components 被大量应用的身影。 国外相对多一点，比如Google首页就应用了非常多Web components。
+其实，国内的网站很难看到 Web components 被大量应用的身影。 国外相对多一点，比如Google首页就应用了非常多Web components。
 
-随着前端框架种类越来越多，组件无法跨框架复用，甚至只能固定在框架的某个版本使用，随着技术的迭代进步，相信 Web components 会作为未来的 Web 组件标准，真正打通 Web 生态，让组件超越框架而存在，未来我们再不用为Vue、React、Angular谁更好这种题目而烦恼了。
+随着前端框架种类越来越多，组件无法跨框架复用，甚至只能固定在框架的某个版本使用，相信 Web components 会作为未来的 Web 组件标准，让组件超越框架而存在，未来我们可能再不用为Vue、React、Angular谁更好这种题目而烦恼了。
 
-革命尚未成功，同学尚需努力学习三大框架 **:)**
+如果考虑入坑，可以试试[polymer 3.0](https://polymer-library.polymer-project.org/3.0/docs/devguide/feature-overview)，Google 目前很多项目也在使用了，比如 [youtube](https://www.youtube.com/)。
 
 ## 参考
 
