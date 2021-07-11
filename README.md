@@ -14,16 +14,18 @@
 
 1. [谈谈 Web Components](https://github.com/ricksunxxx/blog/blob/master/javascript/谈谈webcomponents.md)
 
+2. [长列表如何做性能优化](https://github.com/ricksunxxx/blog/blob/master/javascript/长列表如何做性能优化.md)
+
 <!-- 2. [长文介绍 Javascript 异步编程——callback（一）](https://github.com/ricksunxxx/blog/issues/3)
-   
+
 3. [长文介绍 Javascript 异步编程——callback（一）](https://github.com/ricksunxxx/blog/issues/3)
-   
+
 4. [长文介绍 Javascript 异步编程——promise（二）](https://github.com/ricksunxxx/blog/issues/4)
-   
+
 5. [长文介绍 Javascript 异步编程——async/await（三）](https://github.com/ricksunxxx/blog/issues/5)
-   
+
 6.  [长文介绍 Javascript 异步编程——未来（四）](https://github.com/ricksunxxx/blog/issues/6)
-   
+
 7.  [import 与 require 本质区别](https://github.com/ricksunxxx/blog/issues/8) -->
 
 ## 勘误及提问
