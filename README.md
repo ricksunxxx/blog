@@ -3,6 +3,7 @@
 ## 微信小程序系列
 
 1. [小程序 canvas 问题](https://github.com/ricksunxxx/blog/blob/master/miniprogram/小程序canvas问题.md)
+
 2. [小程序原生组件同层渲染原理](https://github.com/ricksunxxx/blog/blob/master/miniprogram/小程序原生组件同层渲染原理.md)
 
 3. [探讨加购物车的抛物线动画实现过程](https://github.com/ricksunxxx/blog/blob/master/miniprogram/探讨加购物车的抛物线动画实现过程.md)
